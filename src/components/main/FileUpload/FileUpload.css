@@ -1,0 +1,87 @@
+.file-upload-container {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.file-upload-container input[type="file"] {
+    display: none;
+}
+
+.file-info {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.file-info p {
+    margin: 0;
+}
+
+.file-info button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.file-info button:hover {
+    background-color: #0056b3;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.custom-file-upload:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+.file-name {
+    color: #0056b3;
+}
+
+.disable-button {
+    cursor: not-allowed !important;
+}
+
+.pdf-container {
+    width: 90%;
+    height: 900px;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid #000;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
